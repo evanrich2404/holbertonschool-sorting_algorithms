@@ -16,7 +16,7 @@ void swpints(int *num1, int *num2)
 
 /**
  * l_partition - partitions the array
- * @array: array to partition
+ * @arr: array to partition
  * @low: low index
  * @high: high index
  * @size: size of array
