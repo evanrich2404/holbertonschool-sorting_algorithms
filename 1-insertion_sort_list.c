@@ -12,7 +12,7 @@ void insertion_sort_list(listint_t **list)
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
 	locate = *list;
-	while(locate->next)
+	while (locate->next)
 	{
 		if (locate->n > locate->next->n)
 		{
